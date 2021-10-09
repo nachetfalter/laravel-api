@@ -10,9 +10,20 @@
         "production": "mix --production"
     },
     "devDependencies": {
-        "axios": "^0.21",
+        "@babel/preset-react": "^7.14.5",
+        "autoprefixer": "^10.3.7",
+        "axios": "^0.21.4",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.3.9",
+        "tailwindcss": "^2.2.16"
+    },
+    "dependencies": {
+        "@inertiajs/inertia": "^0.10.1",
+        "@inertiajs/inertia-react": "^0.7.1",
+        "jest": "^27.2.4",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-usestateref": "^1.0.5"
     }
 }

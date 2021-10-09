@@ -14,6 +14,7 @@ services:
     working_dir: /var/www/simple_laravel_api
     restart: unless-stopped
     environment:
+      APP_KEY: base64:vfnqcvfUbQVavoGJ3jihEYAGLdaK8oppx4TPbOBwv88=
       SERVICE_NAME: simple_laravel_api
       QUEUE_CONNECTION: database
       APP_NAME: simple_laravel_api

@@ -35,6 +35,7 @@ There is **no** auth gate in place for this endpoint.
 2. Please edit environment variables as fit in `docker-compose.yaml`
 3. Please run `docker-compose up --build --remove-orphans`
 4. The server is now running on `localhost:8000`
+5. In order to get into the container, you can run `docker-compose exec app /bin/bash`
 
 ## Test
 You can run test via calling `php artisan test`
